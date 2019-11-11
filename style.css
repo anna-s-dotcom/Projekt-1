@@ -1,0 +1,63 @@
+body{
+    background-color: grey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+div{
+    max-width: 960px;
+    background-color: white;
+    margin: auto;
+}
+
+p{
+    padding: 16px;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+    div{
+        background: red;
+        display: flex;
+    }
+
+    img{
+        width: 50%;
+    }
+}
+
+.container{
+    background-color: black;
+    height: 200px;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+}
+
+.rot{
+    background-color: red;
+
+}
+
+.blau{
+    background-color: blue;
+}
+
+.gelb{
+    background-color: yellow;
+}
+
+.rund{
+    border-radius: 50%;
+}
